@@ -41,11 +41,7 @@ nav li a{
 
 }
 
-.btn-area-banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .btn-primary{
     background-color: white;
@@ -64,7 +60,7 @@ nav li a{
 
 .banner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
      align-items: center;
     margin: 70px;
    
@@ -86,6 +82,14 @@ nav li a{
 .banner-description{
     color: gray;
 }
+
+.btn-area-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 .banner-profile-pic{
     width: 350px;
     height: 350px;
