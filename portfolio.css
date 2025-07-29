@@ -17,6 +17,7 @@ nav{
     border-radius: 100px;
     background-color: rgba(33, 31, 35, 0.35);
    margin: 30px 200px 100px 200px;
+   padding: 1px;
    color: purple;
 }
 
@@ -85,6 +86,8 @@ nav li a{
 .banner-profile-pic{
     width: 350px;
     height: 350px;
+    border-radius: 80px;
+
     /* background-position-x:1330px;
     background-position-y: 282px ; */
 }
