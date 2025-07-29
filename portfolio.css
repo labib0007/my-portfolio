@@ -201,3 +201,16 @@ background-color: rgb(9, 110, 243);
 }
 
 
+.education{
+    border-radius: 80px;
+    background-color: rgba(39, 39, 39, 1);
+    padding:40px;
+    margin:100px 70px 70px 70px;
+
+}
+
+
+.education-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
