@@ -205,6 +205,31 @@ background-color: rgb(9, 110, 243);
     color: white;
 }
 
+
+/* Problem Solving */
+
+.problem-solving{
+    text-align: center;
+}
+.ps-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    
+}
+
+.ps-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ps-ds-title{
+    font-size: 25px;
+}
+
+
+
+
 .experience{
     
 
@@ -272,29 +297,6 @@ background-color: rgb(9, 110, 243);
     font-size: 30px;
     
 }
-
-/* Problem Solving */
-
-.problem-solving{
-    text-align: center;
-}
-.ps-content{
-    display: flex;
-    justify-content: space-around;
-    padding: 60px;
-    
-}
-
-.ps-title{
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.ps-ds-title{
-    font-size: 25px;
-}
-
-
 
 
 
