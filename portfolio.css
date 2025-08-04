@@ -36,8 +36,8 @@ nav{
     background-color: rgba(33, 31, 35, 0.35);
    margin: 30px 200px 100px 200px;
    padding: 1px;
-   color: purple;
-      position: fixed;
+   color: rgb(178, 146, 255);
+   position: fixed;
    top:0px;
    left: 100px;
    right: 100px;
@@ -138,16 +138,15 @@ main section {
 
 
 .xp{
-    margin: 120px 70px 0px 70px;
-    
+    margin: 150px 70px 0px 70px;
     display: flex;
-   
     justify-content: space-between;
+    padding: 40px;
 }
 
 .xp-common{
     border-radius: 60px;
-    width: 230px;
+    width: 200px;
     height: 125px;
     margin: 2px;
 }
@@ -217,13 +216,13 @@ background-color: rgb(9, 110, 243);
 
 .my-experience-content{
     display: flex;
-    justify-content: space-between;
-    gap: 100px;
+    justify-content: space-evenly;
+    gap: 250px;
 }
 
 .experience-title{
     
-
+    font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -232,11 +231,27 @@ background-color: rgb(9, 110, 243);
     /* margin-right: 10px; */
 }
 
+.organizational-experience{
+    text-align: center;
+}
+
 
 .designation-description, .company-description{
     color:gray;
     font-size: 22px;
     margin: 0;
+}
+
+
+
+.hall-certificate-image{
+    /* width: 400px;
+    height: 300px;
+    margin: 300px; */
+}
+
+.BELC-image{
+ 
 }
 
 
@@ -254,8 +269,34 @@ background-color: rgb(9, 110, 243);
     text-align: center;
     margin-bottom: 50px;
     color: white;
+    font-size: 30px;
     
 }
+
+/* Problem Solving */
+
+.problem-solving{
+    text-align: center;
+}
+.ps-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    
+}
+
+.ps-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ps-ds-title{
+    font-size: 25px;
+}
+
+
+
+
 
 
 footer{
@@ -286,4 +327,6 @@ footer{
 footer a{
     color: purple;
 }
+
+
 
